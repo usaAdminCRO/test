@@ -8,7 +8,7 @@ const cache = new CacheService(ttl);
 
 const rpcurl = "https://evm.cronos.org";
 const provider = new ethers.providers.JsonRpcProvider(rpcurl);
-const erc721Contract = new ethers.Contract("0x9Df5C42919eB4D9bc56fBdE357416F259Fe2a609", ERC721_ABI.abi, provider);
+const erc721Contract = new ethers.Contract("0x808F90fEaEfBEDC2a44AED19b29bE0E9721A6928", ERC721_ABI.abi, provider);
 
 const MetadataRepo = {
   getAll() {
