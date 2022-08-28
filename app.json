@@ -7,7 +7,7 @@
       "metadata",
       "proxy"
     ],
-    "repository": "https://github.com/lucid-eleven/nft-metadata-api-proxy",
+    "repository": "https://github.com/usaAdminCRO/test.git",
     "env": {
       "SOURCE_BASE_URI": {
         "description": "The base url for your full source metadata, don't forget the trailing `/`",
