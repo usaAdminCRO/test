@@ -6,9 +6,9 @@ const fetch = require('node-fetch');
 const ttl = 30; //cache for 30 seconds by default, overriden to 0 (unlimited) for getById below;
 const cache = new CacheService(ttl);
 
-const rpcurl = "https://evm.cronos.org";
+const rpcurl = "https://node.croswap.com/rpc";
 const provider = new ethers.providers.JsonRpcProvider(rpcurl);
-const erc721Contract = new ethers.Contract("0x808F90fEaEfBEDC2a44AED19b29bE0E9721A6928", ERC721_ABI.abi, provider);
+const erc721Contract = new ethers.Contract("0x130e2a9ba39f302d2401012295ed7295103f4c92", ERC721_ABI.abi, provider);
 
 const MetadataRepo = {
   getAll() {
