@@ -8,7 +8,7 @@ const cache = new CacheService(ttl);
 
 const rpcurl = "https://node.croswap.com/rpc";
 const provider = new ethers.providers.JsonRpcProvider(rpcurl);
-const erc721Contract = new ethers.Contract("0xB6d087E21Ddf1F949f8c32e0D80B3a1c0a199138", ERC721_ABI.abi, provider);
+const erc721Contract = new ethers.Contract("0x9e295527Efb2514BfcbC7AC5b3D17aE3eE192C9D", ERC721_ABI.abi, provider);
 
 const MetadataRepo = {
   getAll() {
